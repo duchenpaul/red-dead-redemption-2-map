@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     container_name: rdr2-map
-    image: theonewhoknocks/rdr2-map
+    image: duchenpaul/rdr2-map
     environment:
       NODE_ENV: production
     ports:
